@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>爬取</title>
+      <link href="/2023/08/19/05/"/>
+      <url>/2023/08/19/05/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.regex.Matcher;  </span><br><span class="line"><span class="keyword">import</span> java.util.regex.Pattern;  </span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">regexdemo</span> &#123;  </span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;  </span><br><span class="line"><span class="type">String</span> <span class="variable">str</span> <span class="operator">=</span> <span class="string">&quot;java自从java8后来更新到java11的单位签订&quot;</span>;  </span><br><span class="line"><span class="comment">//在regex包下,也就是在正则表达式中  </span></span><br><span class="line"><span class="comment">//pattern表示正则表达式  </span></span><br><span class="line"><span class="comment">//先将这个要用正则表达式匹配机制的内容先进行抓取，创建成一个对象  </span></span><br><span class="line"><span class="type">Pattern</span> <span class="variable">P</span> <span class="operator">=</span> Pattern.compile(<span class="string">&quot;java\\d&#123;0,2&#125;&quot;</span>);  </span><br><span class="line"><span class="comment">//后将创建文本匹配器对象，将这个将要被抓取的文本创建对象  </span></span><br><span class="line"><span class="type">Matcher</span> <span class="variable">m</span> <span class="operator">=</span> P.matcher(str);  </span><br><span class="line"><span class="keyword">while</span> (m.find())&#123;  </span><br><span class="line"><span class="type">String</span> <span class="variable">S</span> <span class="operator">=</span> m.group();  </span><br><span class="line">System.out.println(S);  </span><br><span class="line">&#125;  </span><br><span class="line">&#125;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 正则表达式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2023/08/19/03/"/>
+      <url>/2023/08/19/03/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>obsidian</title>
       <link href="/2023/08/18/04/"/>
       <url>/2023/08/18/04/</url>
